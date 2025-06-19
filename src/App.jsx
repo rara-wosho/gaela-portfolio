@@ -6,7 +6,6 @@ import SectionTitle from "./components/ui/SectionTitle";
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
-  console.log(darkMode);
   return (
     <div
       className={`${
@@ -24,10 +23,10 @@ const App = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-sun-icon lucide-sun"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="lucide lucide-sun-icon lucide-sun"
         >
           <circle cx="12" cy="12" r="4" />
           <path d="M12 2v2" />

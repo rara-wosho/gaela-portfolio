@@ -1,6 +1,6 @@
 function Avatar() {
   return (
-    <div className="inline-flex justify-center items-end rounded-full w-44 mb-4 aspect-square bg-gray-600">
+    <div className="inline-flex justify-center items-end rounded-full w-44 mb-4 aspect-square bg-gray-600 absolute -bottom-24 left-16">
       <img
         src="https://i.pinimg.com/736x/5c/da/42/5cda4203f9cac788dc2b72f9c0cbeaba.jpg"
         alt="avatar"
