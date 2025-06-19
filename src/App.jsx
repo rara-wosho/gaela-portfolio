@@ -2,6 +2,8 @@ import { useState } from "react";
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/ui/HeroSection";
 import SectionTitle from "./components/ui/SectionTitle";
+import EducationSection from "./components/EducationSection";
+import SkillsSection from "./components/SkillsSection";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -40,31 +42,21 @@ const App = () => {
         </svg>
       </div>
 
-      <div className="mx-auto max-w-[1000px] main-wrapper">
+      <div className="mx-auto max-w-[1100px] main-wrapper">
         <HeroSection />
-        <AboutSection />
-        <div className="border p-3 mb-3">
-          <SectionTitle
-            icon={
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-user-round-icon lucide-user-round"
-              >
-                <circle cx="12" cy="8" r="5" />
-                <path d="M20 21a8 8 0 0 0-16 0" />
-              </svg>
-            }
-            title="PROFILE"
-          />
+
+        <div className="grid gap-x-3 grid-cols-3 mb-4">
+          <div className="col-span-2">
+            <AboutSection />
+          </div>
+          <EducationSection />
         </div>
+
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <SkillsSection />
+          <SkillsSection />
+        </div>
+
         <div className="border p-3">
           <SectionTitle
             icon={
@@ -87,6 +79,28 @@ const App = () => {
               </svg>
             }
             title="WORK EXPERIENCE"
+          />
+        </div>
+        <div className="border p-3 mb-3">
+          <SectionTitle
+            icon={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-user-round-icon lucide-user-round"
+              >
+                <circle cx="12" cy="8" r="5" />
+                <path d="M20 21a8 8 0 0 0-16 0" />
+              </svg>
+            }
+            title="PROFILE"
           />
         </div>
       </div>

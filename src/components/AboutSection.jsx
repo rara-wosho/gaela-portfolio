@@ -4,7 +4,7 @@ import SectionTitle from "./ui/SectionTitle";
 
 function AboutSection() {
   return (
-    <div className="mb-4 rounded-md">
+    <div className="shadow-sm h-full rounded-xl p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
       <SectionTitle
         title="PROFILE"
         // icon={
@@ -27,10 +27,13 @@ function AboutSection() {
       />
 
       <p className="text-gray-800 mt-5 dark:text-gray-200 after:absolute after:h-1 after:w-12 after:bg-emerald-600 after:left-0 relative after:-top-3">
-        An experienced E-Commerce Account Specialist with 3 years of proven
-        experience and expertise in Amazon store management, including
-        product/content optimization, order processing, customer service, and
-        admin support.
+        An experienced{" "}
+        <span className="text-emerald-900 dark:text-emerald-500 font-medium">
+          E-Commerce Account Specialist
+        </span>{" "}
+        with 3 years of proven experience and expertise in Amazon store
+        management, including product/content optimization, order processing,
+        customer service, and admin support.
       </p>
 
       {/* intro buttons */}
@@ -39,8 +42,8 @@ function AboutSection() {
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="18"
+              width="17"
+              height="17"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -59,8 +62,8 @@ function AboutSection() {
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="17"
-              height="17"
+              width="15"
+              height="15"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -72,7 +75,7 @@ function AboutSection() {
               <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
             </svg>
           }
-          label="Call Me"
+          label="Contact Me"
         />
       </div>
     </div>

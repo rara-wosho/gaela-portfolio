@@ -5,15 +5,15 @@ import Avatar from "./Avatar";
 
 function HeroSection() {
   return (
-    <div className="hero-section flex flex-col items-stretch mb-4">
+    <div className="hero-section flex flex-col items-stretch">
       <UpperHero />
 
-      <div className="w-full flex items-center justify-end mb-4">
-        <p className="text-gray-700 font-light tracking-wide uppercase py-4 pe-3 text-2xl">
+      <div className="w-full flex items-center py-1 justify-end mb-4">
+        <p className="text-gray-700 dark:text-gray-200 font-light tracking-wide uppercase pe-3 text-2xl">
           E-commerce account specialist
         </p>
 
-        <div className="border rounded-full border-orange-500 py-1 px-3 flex items-center gap-1 text-orange-500">
+        <div className="border rounded-full border-orange-500 py-1 px-3 flex items-center gap-1 text-orange-500 dark:text-orange-400 dark:border-orange-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="15"
