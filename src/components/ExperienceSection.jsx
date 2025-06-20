@@ -3,7 +3,7 @@ import SectionTitle from "./ui/SectionTitle";
 
 function ExperienceSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-6 dark:bg-neutral-900 dark:border-neutral-700 border mb-3">
+        <div className="shadow-sm h-full rounded-xl mt-4 mb-3.5">
             <SectionTitle
                 icon={
                     <svg
@@ -27,17 +27,68 @@ function ExperienceSection() {
                 title="WORK EXPERIENCE"
             />
 
-            <div className="grid grid-cols-2 gap-x-4 mt-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                 <ExperienceCard
                     title="E-Commerce Account Specialist"
                     secondTitle="Independent Contractor"
                     date="2022 - present"
-                />
+                >
+                    <ul className="ps-4">
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Managed and optimized Amazon product listings to
+                            improve visibility, rankings, and conversion rates
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Conducted keyword research, competitor analysis, and
+                            listing audits to enhance SEO performance
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Handled order processing, inventory tracking, and
+                            customer service coordination to ensure smooth
+                            operations
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Collaborated with marketing teams to plan
+                            promotions, PPC campaigns, and storefront
+                            enhancements
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Prepared weekly performance reports using tools like
+                            Seller Central and Helium 10 to guide
+                            decision-making
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Ensured account health compliance with platform
+                            policies, responding to alerts and resolving issues
+                            promptly
+                        </li>
+                    </ul>
+                </ExperienceCard>
                 <ExperienceCard
                     date="Jan 2024 - Jan 2025"
                     secondTitle="Sterry Limited"
                     title="Public Relations Virtual Assistant (Lead Generation)"
-                />
+                >
+                    <ul className="ps-4">
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Identified Key Opinion Leaders (KOLs) aligned with
+                            industry trends and campaign goals for potential
+                            brand collaborations
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Maintained and organized confidential data sheets
+                            critical to daily e-commerce operations
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Assisted in data entry, reporting, and basic
+                            analysis to support strategic decisionmaking
+                        </li>
+                        <li className="text-sm list-disc text-gray-700 dark:text-neutral-300 mb-3">
+                            Provided administrative support to the e-commerce
+                            team, ensuring smooth workflow and task execution
+                        </li>
+                    </ul>
+                </ExperienceCard>
             </div>
         </div>
     );

@@ -28,7 +28,7 @@ function AboutSection() {
                 }
             />
 
-            <p className="text-gray-800 mt-2 dark:text-gray-200">
+            <p className="text-gray-800 mt-2 dark:text-gray-300">
                 An experienced{" "}
                 <span className="text-emerald-900 dark:text-emerald-500 font-medium">
                     E-Commerce Account Specialist

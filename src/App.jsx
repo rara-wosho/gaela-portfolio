@@ -4,6 +4,7 @@ import HeroSection from "./components/ui/HeroSection";
 import EducationSection from "./components/EducationSection";
 import SkillsSection from "./components/SkillsSection";
 import ExperienceSection from "./components/ExperienceSection";
+import ToolsSection from "./components/ToolsSection";
 
 const App = () => {
     const [darkMode, setDarkMode] = useState(true);
@@ -42,11 +43,11 @@ const App = () => {
                 </svg>
             </div>
 
-            <div className="mx-auto max-w-[1100px] main-wrapper">
+            <div className="mx-auto max-w-[1150px] main-wrapper px-3 pb-4">
                 <HeroSection />
 
-                <div className="grid gap-x-3 grid-cols-3 mb-3">
-                    <div className="col-span-2">
+                <div className="grid gap-3 grid-cols-1 md:grid-cols-3 mb-3">
+                    <div className="col-span-1 md:col-span-2">
                         <AboutSection />
                     </div>
                     <EducationSection />
@@ -54,8 +55,9 @@ const App = () => {
 
                 <ExperienceSection />
 
-                <div className="mb-4">
+                <div className="mb-4 gap-3 grid grid-cols-1 md:grid-cols-2">
                     <SkillsSection />
+                    <ToolsSection />
                 </div>
             </div>
         </div>

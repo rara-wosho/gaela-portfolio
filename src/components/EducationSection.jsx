@@ -1,9 +1,8 @@
-import React from "react";
 import SectionTitle from "./ui/SectionTitle";
 
 function EducationSection() {
     return (
-        <div className="p-6 rounded-xl dark:bg-neutral-900 dark:border-neutral-700 border shadow-sm">
+        <div className="md:p-6 p-4 rounded-xl dark:bg-neutral-900 dark:border-neutral-700 w-full border shadow-sm">
             <SectionTitle
                 title="EDUCATION"
                 border

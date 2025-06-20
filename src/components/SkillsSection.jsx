@@ -16,7 +16,7 @@ const skills = [
 
 function SkillsSection() {
     return (
-        <div className="mb-2">
+        <div className="shadow-sm h-full flex-grow rounded-xl p-4 md:p-6 dark:bg-neutral-900 dark:border-neutral-700 border">
             <SectionTitle
                 title="Skills"
                 icon={
@@ -45,34 +45,10 @@ function SkillsSection() {
                 }
             />
 
-            <div className="gap-2 mt-3 text-sm grid grid-cols-5">
+            <div className="gap-2 mt-2 text-sm grid grid-cols-2">
                 {skills.map((skill) => (
                     <SkillTab skill={skill} />
                 ))}
-                {/* <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
-          Account Management
-        </span>
-        <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full">
-          Listing Optimization
-        </span>
-        <span className="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">
-          SEO & Advertising
-        </span>
-        <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">
-          Order Management
-        </span>
-        <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full">
-          Inventory Management
-        </span>
-        <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full">
-          Product Development
-        </span>
-        <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full">
-          Data Entry
-        </span>
-        <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">
-          Intensive Research
-        </span> */}
             </div>
         </div>
     );
