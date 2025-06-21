@@ -36,6 +36,7 @@ export default function ToolsSection() {
                 <ToolTab tool="Loom" logo="loom.png" />
                 <ToolTab tool="Clockify" logo="clockify.png" />
                 <ToolTab tool="Google Workspace" logo="google.png" />
+                <ToolTab tool="SwipeMagic" logo="google.png" />
             </div>
         </div>
     );

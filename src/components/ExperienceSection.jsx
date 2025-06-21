@@ -1,32 +1,71 @@
+import { Link, useLocation } from "react-router";
 import ExperienceCard from "./ui/ExperienceCard";
 import List from "./ui/List";
+import PrimaryButton from "./ui/PrimaryButton";
 import SectionTitle from "./ui/SectionTitle";
 
 function ExperienceSection() {
+    const location = useLocation();
+
     return (
         <div className="h-full rounded-xl mt-4 mb-3.5">
-            <SectionTitle
-                icon={
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="18"
-                        height="18"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="lucide lucide-briefcase-business-icon lucide-briefcase-business"
-                    >
-                        <path d="M12 12h.01" />
-                        <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                        <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                        <rect width="20" height="14" x="2" y="6" rx="2" />
-                    </svg>
-                }
-                title="PROFESSIONAL EXPERIENCE"
-            />
+            <div className="flex justify-start">
+                <SectionTitle
+                    icon={
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            className="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+                        >
+                            <path d="M12 12h.01" />
+                            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+                            <rect width="20" height="14" x="2" y="6" rx="2" />
+                        </svg>
+                    }
+                    title="PROFESSIONAL EXPERIENCE"
+                />
+
+                {location.pathname === "/" && (
+                    <div className="md:items-center md:justify-start hidden md:flex md:ms-auto">
+                        <Link to="/experiences">
+                            <PrimaryButton
+                                rightIcon={
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-chevron-right-icon lucide-chevron-right"
+                                    >
+                                        <path d="m9 18 6-6-6-6" />
+                                    </svg>
+                                }
+                                containerStyle="text-sm px-8 mb-2"
+                                label="View All"
+                            />
+                        </Link>
+                    </div>
+                )}
+            </div>
+
+            {/* <p className="text-sm text-center md:text-start text-neutral-600 dark:text-neutral-300 pt-2 mb-4">
+                My work experience spans professional virtual assistance,
+                technical training, and customer-facing roles—each contributing
+                to a well-rounded and adaptable skill set.
+            </p> */}
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                 <ExperienceCard
@@ -90,7 +129,50 @@ function ExperienceSection() {
                         </List>
                     </ul>
                 </ExperienceCard>
+
+                {location.pathname === "/experiences" && (
+                    <ExperienceCard
+                        title="ESL Tutor"
+                        secondTitle="GLATS | ESL Online School"
+                        date="1 Year"
+                        containerStyle="md:col-span-2"
+                    >
+                        <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
+                            <List>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Error, officia. rates
+                            </List>
+                        </ul>
+                    </ExperienceCard>
+                )}
             </div>
+
+            {location.pathname === "/" && (
+                <div className="md:items-center mt-4 justify-center md:justify-start flex md:hidden">
+                    <Link to="/experiences">
+                        <PrimaryButton
+                            rightIcon={
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="lucide lucide-chevron-right-icon lucide-chevron-right"
+                                >
+                                    <path d="m9 18 6-6-6-6" />
+                                </svg>
+                            }
+                            containerStyle="text-sm px-8 mb-2"
+                            label="View All"
+                        />
+                    </Link>
+                </div>
+            )}
         </div>
     );
 }

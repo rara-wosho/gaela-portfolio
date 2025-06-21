@@ -33,10 +33,10 @@ function EducationSection() {
                 Bachelor of Arts in English Language
             </p>
             <div className="flex items-center gap-x-2">
-                <p className="text-[14px] border flex items-center border-emerald-700 px-3 font-semibold text-emerald-800 dark:text-emerald-500 dark:border-emerald-500 py-1 rounded-full">
+                <p className="text-[14px] border flex items-center border-emerald-700 px-3 font-semibold text-emerald-800 dark:text-emerald-500 dark:border-emerald-700 py-1 rounded-full">
                     GPA: 1.4
                 </p>
-                <p className="text-[14px] border flex items-center border-emerald-700 px-3 font-semibold text-emerald-800 dark:text-emerald-500 dark:border-emerald-500 py-1 rounded-full">
+                <p className="text-[14px] border flex items-center border-emerald-700 px-3 font-semibold text-emerald-800 dark:text-emerald-500 dark:border-emerald-700 py-1 rounded-full">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="12"

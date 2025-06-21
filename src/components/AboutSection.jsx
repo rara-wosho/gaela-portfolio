@@ -40,6 +40,7 @@ function AboutSection() {
             {/* intro buttons */}
             <div className="flex items-center gap-2 mt-4">
                 <PrimaryButton
+                    containerStyle="px-3"
                     icon={
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import ExperienceCard from "./ui/ExperienceCard";
 import List from "./ui/List";
 import SectionTitle from "./ui/SectionTitle";
 
-function WorkExperience() {
+function OrganizationalExperience() {
     return (
         <div className="h-full rounded-xl mt-4 mb-3.5">
             <SectionTitle
@@ -25,54 +25,39 @@ function WorkExperience() {
                         <rect width="20" height="14" x="2" y="6" rx="2" />
                     </svg>
                 }
-                title="Work Experience"
+                title="Organizational Experience"
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                 <ExperienceCard
-                    date="Mar 2017 - Jun 2018"
-                    secondTitle="Silicon Valley Computer Group Philippines, Inc."
-                    title="Cashier/Sales Associate"
+                    date="Aug 2022 - Aug 2023"
+                    secondTitle="College of Arts and Sciences Student Society"
+                    title="President"
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Receives payments via cash, check, or credit. Counts
-                            cash in drawers at the beginning of shifts. Create
-                            sales reports.
+                            Coordinating all student council activities and is
+                            in charge of running student council meetings.
                         </List>
-                        <List>Provides assistance to customers.</List>
-                    </ul>
-                </ExperienceCard>
-                <ExperienceCard
-                    date="Oct 2016 - Jan 2017"
-                    title="Promoter"
-                    secondTitle="OPPO Mobile"
-                >
-                    <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
-                        <List>Perform sales/product demo to customers</List>
-                    </ul>
-                </ExperienceCard>
-                <ExperienceCard
-                    date="Apr 2016 - Oct 2016"
-                    title="Redemption Booth Custodian (Contractual)"
-                    secondTitle="World of Fun Amusement Center"
-                >
-                    <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Collects arcade tickets, audit cash and rectify
-                            reports
+                            Responsible for the management of the organization.
                         </List>
                     </ul>
                 </ExperienceCard>
                 <ExperienceCard
-                    date="Jul 2015 - Nov 2015"
-                    title="Sales Clerk (Contractual)"
-                    secondTitle="Manila Southern Associates"
+                    date="Aug 2021 - Aug 2022"
+                    title="P. I. O."
+                    secondTitle="College of Arts and Sciences Student Society"
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Perform sales tasks and provide assistance to
-                            customers
+                            Managed all external communications and media
+                            relations on behalf of the student organization.
+                        </List>
+                        <List>
+                            Collaborated with internal teams to ensure
+                            consistent messaging and branding across all
+                            communication channels.
                         </List>
                     </ul>
                 </ExperienceCard>
@@ -81,4 +66,4 @@ function WorkExperience() {
     );
 }
 
-export default WorkExperience;
+export default OrganizationalExperience;
