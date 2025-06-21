@@ -6,10 +6,6 @@ function HeroSection() {
             <UpperHero />
 
             <div className="w-full flex items-center py-1 justify-end mb-12">
-                <p className="dark:border-gray-200 border me-28 rounded-full px-3 py-1 dark:text-gray-200">
-                    Available for work
-                </p>
-
                 <p className="text-gray-700 dark:text-gray-200 font-light tracking-wide uppercase pe-3 text-2xl">
                     E-commerce account specialist
                 </p>

@@ -5,6 +5,8 @@ import EducationSection from "./components/EducationSection";
 import SkillsSection from "./components/SkillsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import ToolsSection from "./components/ToolsSection";
+import OjtSection from "./components/OjtSection";
+import WorkExperience from "./components/WorkExperience";
 
 const App = () => {
     const [darkMode, setDarkMode] = useState(true);
@@ -54,6 +56,8 @@ const App = () => {
                 </div>
 
                 <ExperienceSection />
+                <OjtSection />
+                <WorkExperience />
 
                 <div className="mb-4 gap-3 grid grid-cols-1 md:grid-cols-2">
                     <SkillsSection />

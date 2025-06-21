@@ -7,7 +7,6 @@ function AboutSection() {
         <div className="shadow-sm h-full rounded-xl p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
             <SectionTitle
                 title="PROFILE"
-                border
                 icon={
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -16,9 +15,9 @@ function AboutSection() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="lucide lucide-circle-user-round-icon lucide-circle-user-round"
                     >
                         <path d="M18 20a6 6 0 0 0-12 0" />

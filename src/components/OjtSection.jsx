@@ -2,7 +2,7 @@ import ExperienceCard from "./ui/ExperienceCard";
 import List from "./ui/List";
 import SectionTitle from "./ui/SectionTitle";
 
-function ExperienceSection() {
+function OjtSection() {
     return (
         <div className="h-full rounded-xl mt-4 mb-3.5">
             <SectionTitle
@@ -25,50 +25,46 @@ function ExperienceSection() {
                         <rect width="20" height="14" x="2" y="6" rx="2" />
                     </svg>
                 }
-                title="PROFESSIONAL EXPERIENCE"
+                title="on-the-job training"
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                 <ExperienceCard
-                    title="E-Commerce Account Specialist"
-                    secondTitle="Independent Contractor"
-                    date="2022 - present"
+                    containerStyle="col-span-2"
+                    date="May 2023 - Jun 2023"
+                    secondTitle="St. Peter's College, College of Arts and Sciences Office"
+                    title="Data Entry-Intern"
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Managed and optimized Amazon product listings to
-                            improve visibility, rankings, and conversion rates
+                            Completed data entry tasks with a high level of
+                            accuracy and attention to detail.
                         </List>
                         <List>
-                            Conducted keyword research, competitor analysis, and
-                            listing audits to enhance SEO performance
+                            Handled sensitive and confidential information with
+                            the utmost professionalism and adherence to privacy
+                            protocols.
                         </List>
                         <List>
-                            Handled order processing, inventory tracking, and
-                            customer service coordination to ensure smooth
-                            operations
+                            Demonstrated strong time management skills to meet
+                            deadlines and manage multiple projects
+                            simultaneously.
                         </List>
                         <List>
-                            Collaborated with marketing teams to plan
-                            promotions, PPC campaigns, and storefront
-                            enhancements
+                            Adapted quickly to new software or tools used for
+                            data entry and reporting purposes.
                         </List>
                         <List>
-                            Prepared weekly performance reports using tools like
-                            Seller Central and Helium 10 to guide
-                            decision-making
-                        </List>
-                        <List>
-                            Ensured account health compliance with platform
-                            policies, responding to alerts and resolving issues
-                            promptly
+                            Communicated effectively with supervisors and team
+                            members to provide updates and seek clarification
+                            when necessary.
                         </List>
                     </ul>
                 </ExperienceCard>
                 <ExperienceCard
-                    date="Jan 2024 - Jan 2025"
-                    secondTitle="Sterry Limited"
-                    title="Public Relations Virtual Assistant (Lead Generation)"
+                    date="Mar 2023 - Apr 2023"
+                    title="K-1 Practice Teacher"
+                    secondTitle="Fountain of Life Academy of Iligan City, INC."
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
@@ -90,9 +86,37 @@ function ExperienceSection() {
                         </List>
                     </ul>
                 </ExperienceCard>
+                <ExperienceCard
+                    date="Feb 2023 - Mar 2023"
+                    title="Grade 9 and Grade 10 Practice Teacher"
+                    secondTitle="St. Peter's College, Basic Education Department"
+                >
+                    <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
+                        <List>
+                            Graded assignments and reported individual progress
+                            to teacher
+                        </List>
+                        <List>
+                            Maintained and organized confidential data sheets
+                            Helped teachers decorate and organize classrooms
+                            with age-specific decor and organization prior to
+                            classes starting.
+                        </List>
+                        <List>
+                            Monitored classrooms for safety and good behaviour,
+                            offering students positive reinforcement to maintain
+                            discipline
+                        </List>
+                        <List>
+                            Delivered personalized educational, behavioural, and
+                            emotional support to individual students to enable
+                            positive learning outcomes.
+                        </List>
+                    </ul>
+                </ExperienceCard>
             </div>
         </div>
     );
 }
 
-export default ExperienceSection;
+export default OjtSection;

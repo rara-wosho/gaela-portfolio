@@ -45,9 +45,9 @@ function SkillsSection() {
                 }
             />
 
-            <div className="gap-2 mt-2 text-sm grid grid-cols-2">
+            <div className="gap-2 mt-2 text-sm grid grid-cols-1 md:grid-cols-2">
                 {skills.map((skill) => (
-                    <SkillTab skill={skill} />
+                    <SkillTab key={skill} skill={skill} />
                 ))}
             </div>
         </div>
