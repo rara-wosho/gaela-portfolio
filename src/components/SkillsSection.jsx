@@ -12,6 +12,8 @@ const skills = [
     "Product Development",
     "Data Entry",
     "Intensive Research",
+    "Transcribing",
+    "ESL Tutor",
 ];
 
 function SkillsSection() {

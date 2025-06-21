@@ -11,7 +11,7 @@ function SectionTitle({ title, icon, border }) {
                     {icon}
                 </div>
             )}
-            <p className="text-[18px] font-bold tracking-[6px] uppercase">
+            <p className="text-[18px] font-bold tracking-[4px] md:tracking-[6px] uppercase">
                 {title}
             </p>
         </div>

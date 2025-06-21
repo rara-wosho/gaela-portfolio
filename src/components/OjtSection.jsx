@@ -30,7 +30,7 @@ function OjtSection() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
                 <ExperienceCard
-                    containerStyle="col-span-2"
+                    containerStyle="md:col-span-2"
                     date="May 2023 - Jun 2023"
                     secondTitle="St. Peter's College, College of Arts and Sciences Office"
                     title="Data Entry-Intern"

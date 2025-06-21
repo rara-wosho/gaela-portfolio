@@ -5,8 +5,8 @@ function HeroSection() {
         <div className="hero-section flex flex-col items-stretch">
             <UpperHero />
 
-            <div className="w-full flex items-center py-1 justify-end mb-12">
-                <p className="text-gray-700 dark:text-gray-200 font-light tracking-wide uppercase pe-3 text-2xl">
+            <div className="w-full flex flex-col md:flex-row gap-y-2 items-center py-2 md:py-1 justify-center md:justify-end mb-8 md:mb-12">
+                <p className="text-gray-700 dark:text-gray-200 font-light tracking-wide text-center md:text-end uppercase pe-3 text-xl md:text-2xl">
                     E-commerce account specialist
                 </p>
 

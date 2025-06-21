@@ -55,14 +55,14 @@ const App = () => {
                     <EducationSection />
                 </div>
 
-                <ExperienceSection />
-                <OjtSection />
-                <WorkExperience />
-
-                <div className="mb-4 gap-3 grid grid-cols-1 md:grid-cols-2">
+                <div className="gap-3 grid grid-cols-1 md:grid-cols-2 border-b pb-10 mb-8 dark:border-b-neutral-800 border-t-neutral-200">
                     <SkillsSection />
                     <ToolsSection />
                 </div>
+
+                <ExperienceSection />
+                <OjtSection />
+                <WorkExperience />
             </div>
         </div>
     );
