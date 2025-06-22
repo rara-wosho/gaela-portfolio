@@ -131,19 +131,28 @@ function ExperienceSection() {
                 </ExperienceCard>
 
                 {location.pathname === "/experiences" && (
-                    <ExperienceCard
-                        title="ESL Tutor"
-                        secondTitle="GLATS | ESL Online School"
-                        date="1 Year"
-                        containerStyle="md:col-span-2"
-                    >
-                        <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
-                            <List>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Error, officia. rates
-                            </List>
-                        </ul>
-                    </ExperienceCard>
+                    <>
+                        <ExperienceCard
+                            title="ESL Tutor"
+                            secondTitle="GLATS | ESL Online School"
+                            date="1 Year"
+                        >
+                            <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
+                                <List>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Error, officia. rates
+                                </List>
+                            </ul>
+                        </ExperienceCard>
+                        <ExperienceCard title="Tutoring Gig" date="4 years">
+                            <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
+                                <List>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Error, officia. rates
+                                </List>
+                            </ul>
+                        </ExperienceCard>
+                    </>
                 )}
             </div>
 

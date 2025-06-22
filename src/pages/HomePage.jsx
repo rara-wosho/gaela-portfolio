@@ -1,6 +1,8 @@
 import AboutSection from "../components/AboutSection";
+import CertificatesSection from "../components/CertificatesSection";
 import EducationSection from "../components/EducationSection";
 import ExperienceSection from "../components/ExperienceSection";
+import GetInTouchSection from "../components/GetInTouchSection";
 import SkillsSection from "../components/SkillsSection";
 import ToolsSection from "../components/ToolsSection";
 import HeroSection from "../components/ui/HeroSection";
@@ -25,12 +27,11 @@ function HomePage() {
 
             <ExperienceSection />
 
-            <div className="shadow-sm h-full rounded-xl p-6 mb-3 dark:bg-neutral-900 dark:border-neutral-700 border">
-                <SectionTitle title="certificates" />
+            <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-3 mb-3">
+                <CertificatesSection />
+                <GetInTouchSection />
             </div>
-            <div className="shadow-sm h-full rounded-xl p-6 mb-3 dark:bg-neutral-900 dark:border-neutral-700 border">
-                <SectionTitle title="Connect" />
-            </div>
+
             <div className="shadow-sm h-full rounded-xl p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
                 <SectionTitle title="Beyond Working" />
             </div>

@@ -60,25 +60,31 @@ function AboutSection() {
                     }
                     label="Send Email"
                 />
-                <SecondaryButton
-                    icon={
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="15"
-                            height="15"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            className="lucide lucide-phone-icon lucide-phone"
-                        >
-                            <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
-                        </svg>
-                    }
-                    label="Contact Me"
-                />
+                <a href="#get-in-touch">
+                    <SecondaryButton
+                        icon={
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="15"
+                                height="15"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="lucide lucide-signal-icon lucide-signal"
+                            >
+                                <path d="M2 20h.01" />
+                                <path d="M7 20v-4" />
+                                <path d="M12 20v-8" />
+                                <path d="M17 20V8" />
+                                <path d="M22 4v16" />
+                            </svg>
+                        }
+                        label="Get In Touch"
+                    />
+                </a>
             </div>
         </div>
     );

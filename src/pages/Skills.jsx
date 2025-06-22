@@ -8,7 +8,7 @@ function Skills() {
     return (
         <>
             <ScrollToTop />
-            <div className="pb-1 pt-6">
+            <div className="pt-4">
                 <button
                     onClick={() => navigate(-1)}
                     className="text-neutral-600 dark:text-gray-300 flex items-center gap-1"

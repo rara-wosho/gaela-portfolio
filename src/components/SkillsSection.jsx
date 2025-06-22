@@ -82,7 +82,7 @@ function SkillsSection() {
                             }
                         />
                         <Link
-                            className="text-neutral-600 text-sm dark:text-neutral-300 hover:text-emerald-600"
+                            className="text-neutral-600 dark:text-neutral-300 hover:text-emerald-600 font-semibold"
                             to="/skills"
                         >
                             View All
