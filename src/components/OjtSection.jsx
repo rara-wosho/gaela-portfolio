@@ -68,21 +68,29 @@ function OjtSection() {
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Identified Key Opinion Leaders (KOLs) aligned with
-                            industry trends and campaign goals for potential
-                            brand collaborations
+                            Graded simple assignments and reported individual
+                            progress to the supervising teacher, focusing on
+                            early learning milestones.
                         </List>
                         <List>
-                            Maintained and organized confidential data sheets
-                            critical to daily e-commerce operations
+                            Maintained and organized confidential student
+                            records and daily observation sheets.
                         </List>
                         <List>
-                            Assisted in data entry, reporting, and basic
-                            analysis to support strategic decisionmaking
+                            Helped decorate and set up the classroom with
+                            age-appropriate themes and learning materials before
+                            classes began.
                         </List>
                         <List>
-                            Provided administrative support to the e-commerce
-                            team, ensuring smooth workflow and task execution
+                            Monitored the classroom to ensure a safe and
+                            nurturing environment, encouraging positive behavior
+                            through gentle guidance and reinforcement.
+                        </List>
+                        <List>
+                            Provided personalized support to young learners,
+                            helping them with early literacy, motor skills, and
+                            emotional development to foster a positive and
+                            engaging learning experience.
                         </List>
                     </ul>
                 </ExperienceCard>
@@ -93,24 +101,24 @@ function OjtSection() {
                 >
                     <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                         <List>
-                            Graded assignments and reported individual progress
-                            to teacher
+                            Checked and graded student assignments, quizzes, and
+                            seatwork, then reported individual progress to the
+                            supervising teacher for academic tracking.
                         </List>
                         <List>
-                            Maintained and organized confidential data sheets
-                            Helped teachers decorate and organize classrooms
-                            with age-specific decor and organization prior to
-                            classes starting.
+                            Maintained and organized confidential student
+                            records, including performance data and attendance
+                            sheets.
                         </List>
                         <List>
-                            Monitored classrooms for safety and good behaviour,
-                            offering students positive reinforcement to maintain
-                            discipline
+                            Assisted in preparing and arranging the classroom
+                            with subject-related visual aids and instructional
+                            materials to enhance student engagement.
                         </List>
                         <List>
-                            Delivered personalized educational, behavioural, and
-                            emotional support to individual students to enable
-                            positive learning outcomes.
+                            Monitored class behavior and ensured a safe,
+                            respectful learning environment by reinforcing
+                            classroom rules and addressing disruptions calmly.
                         </List>
                     </ul>
                 </ExperienceCard>

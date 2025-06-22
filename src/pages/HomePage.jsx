@@ -1,8 +1,10 @@
 import AboutSection from "../components/AboutSection";
+import BeyondWorkingSection from "../components/BeyondWorkingSection";
 import CertificatesSection from "../components/CertificatesSection";
 import EducationSection from "../components/EducationSection";
 import ExperienceSection from "../components/ExperienceSection";
 import GetInTouchSection from "../components/GetInTouchSection";
+import Goals from "../components/Goals";
 import SkillsSection from "../components/SkillsSection";
 import ToolsSection from "../components/ToolsSection";
 import HeroSection from "../components/ui/HeroSection";
@@ -28,12 +30,15 @@ function HomePage() {
             <ExperienceSection />
 
             <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] gap-3 mb-3">
-                <CertificatesSection />
+                <div className="grid grid-cols-1 gap-3">
+                    <CertificatesSection />
+                    <BeyondWorkingSection />
+                </div>
                 <GetInTouchSection />
             </div>
 
-            <div className="shadow-sm h-full rounded-xl p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
-                <SectionTitle title="Beyond Working" />
+            <div className="grid grid-cols-1 gap-3">
+                <Goals />
             </div>
         </>
     );

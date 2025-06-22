@@ -4,7 +4,7 @@ import SectionTitle from "./ui/SectionTitle";
 
 function AboutSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+        <div className="shadow-sm h-full rounded-xl p-4 md:p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
             <SectionTitle
                 title="PROFILE"
                 icon={
@@ -39,27 +39,35 @@ function AboutSection() {
 
             {/* intro buttons */}
             <div className="flex items-center gap-2 mt-4">
-                <PrimaryButton
-                    containerStyle="px-3"
-                    icon={
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="17"
-                            height="17"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            className="lucide lucide-mail-icon lucide-mail"
-                        >
-                            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
-                            <rect x="2" y="4" width="20" height="16" rx="2" />
-                        </svg>
-                    }
-                    label="Send Email"
-                />
+                <a href="mailto:devera.avygael@gmail.com">
+                    <PrimaryButton
+                        containerStyle="px-3"
+                        icon={
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="17"
+                                height="17"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="lucide lucide-mail-icon lucide-mail"
+                            >
+                                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                                <rect
+                                    x="2"
+                                    y="4"
+                                    width="20"
+                                    height="16"
+                                    rx="2"
+                                />
+                            </svg>
+                        }
+                        label="Send Email"
+                    />
+                </a>
                 <a href="#get-in-touch">
                     <SecondaryButton
                         icon={

@@ -9,19 +9,25 @@ export default function ToolsSection() {
                 icon={
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="17"
-                        height="17"
+                        width="18"
+                        height="18"
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="lucide lucide-layout-panel-left-icon lucide-layout-panel-left"
+                        className="lucide lucide-laptop-minimal-icon lucide-laptop-minimal"
                     >
-                        <rect width="7" height="18" x="3" y="3" rx="1" />
-                        <rect width="7" height="7" x="14" y="3" rx="1" />
-                        <rect width="7" height="7" x="14" y="14" rx="1" />
+                        <rect
+                            width="18"
+                            height="12"
+                            x="3"
+                            y="4"
+                            rx="2"
+                            ry="2"
+                        />
+                        <line x1="2" x2="22" y1="20" y2="20" />
                     </svg>
                 }
             />
@@ -35,8 +41,9 @@ export default function ToolsSection() {
                 <ToolTab tool="Lark" logo="lark.png" />
                 <ToolTab tool="Loom" logo="loom.png" />
                 <ToolTab tool="Clockify" logo="clockify.png" />
+                <ToolTab tool="SwipeMagic" logo="swipemagic.PNG" />
+                <ToolTab tool="ClickUp" logo="clickup.png" />
                 <ToolTab tool="Google Workspace" logo="google.png" />
-                <ToolTab tool="SwipeMagic" logo="google.png" />
             </div>
         </div>
     );

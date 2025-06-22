@@ -134,21 +134,33 @@ function ExperienceSection() {
                     <>
                         <ExperienceCard
                             title="ESL Tutor"
-                            secondTitle="GLATS | ESL Online School"
+                            secondTitle="GLATS"
                             date="1 Year"
                         >
                             <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                                 <List>
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error, officia. rates
+                                    As an ESL Tutor at GLATS, I provide engaging
+                                    and personalized English lessons to students
+                                    of various ages and proficiency levels. I
+                                    help learners improve their speaking,
+                                    listening, reading, and writing skills
+                                    through interactive online sessions,
+                                    fostering confidence and fluency in a
+                                    supportive virtual environment.
                                 </List>
                             </ul>
                         </ExperienceCard>
                         <ExperienceCard title="Tutoring Gig" date="4 years">
                             <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                                 <List>
-                                    Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error, officia. rates
+                                    In-person Support for Young Learners I offer
+                                    in-person tutoring sessions at our place,
+                                    assisting young learners with their daily
+                                    tasks, school assignments, and preparation
+                                    for activities and exams. I provide a
+                                    patient, encouraging environment that helps
+                                    build their understanding, confidence, and
+                                    academic skills.
                                 </List>
                             </ul>
                         </ExperienceCard>

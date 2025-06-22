@@ -49,7 +49,7 @@ function UpperHero() {
                 <div className="flex items-center dark:border-gray-500 border z-10 rounded-full px-3 gap-x-2">
                     <div className="w-2.5 h-2.5 bg-green-600 rounded-full"></div>
                     <p className="py-1 text-white text-sm dark:text-gray-200">
-                        Available for work
+                        Open to work
                     </p>
                 </div>
                 <h1 className="font-bold leading-12 text-white text-center md:text-end md:text-[64px] text-[32px] w-full uppercase tracking-wider z-10">

@@ -5,7 +5,7 @@ function TechnicalSkills() {
     return (
         <div>
             <div className="grid mt-2 grid-cols-1 md:grid-cols-2 gap-3">
-                <ul className="px-10 flex flex-col gap-4 shadow-sm h-full rounded-xl py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+                <ul className="px-8 md:px-10 py-4 flex flex-col gap-4 shadow-sm h-full rounded-xl md:py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
                     <SectionTitle title="Technical" />
                     <List>
                         <span className="text-orange-500">Office Software</span>
@@ -17,7 +17,7 @@ function TechnicalSkills() {
                         Accurate and efficient data entry skills.
                     </List>
                 </ul>
-                <ul className="px-10 flex flex-col gap-4 shadow-sm h-full rounded-xl py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+                <ul className="px-8 md:px-10 py-4 flex flex-col gap-4 shadow-sm h-full rounded-xl md:py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
                     <SectionTitle title="Customer Service" />
                     <List>
                         <span className="text-orange-500">
@@ -32,7 +32,7 @@ function TechnicalSkills() {
                         maintaining accurate financial records
                     </List>
                 </ul>
-                <ul className="px-10 flex flex-col gap-4 shadow-sm h-full rounded-xl py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+                <ul className="px-8 md:px-10 py-4 flex flex-col gap-4 shadow-sm h-full rounded-xl md:py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
                     <SectionTitle title="Communication" />
                     <List>
                         <span className="text-orange-500">Languages</span>:
@@ -40,7 +40,7 @@ function TechnicalSkills() {
                         verbal and written.
                     </List>
                 </ul>
-                <ul className="px-10 flex flex-col gap-4 shadow-sm h-full rounded-xl py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+                <ul className="px-8 md:px-10 py-4 flex flex-col gap-4 shadow-sm h-full rounded-xl md:py-6  dark:bg-neutral-900 dark:border-neutral-700 border">
                     <SectionTitle title="Problem Solving" />
                     <List>
                         Effective in identifying issues and implementing
