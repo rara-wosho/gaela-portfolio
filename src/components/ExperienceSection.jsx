@@ -136,6 +136,7 @@ function ExperienceSection() {
                             title="ESL Tutor"
                             secondTitle="GLATS"
                             date="1 Year"
+                            image="/images/image1.jpeg"
                         >
                             <ul className="ps-4 border-s border-s-neutral-200 dark:border-s-neutral-800 flex flex-col gap-6 mb-2">
                                 <List>
