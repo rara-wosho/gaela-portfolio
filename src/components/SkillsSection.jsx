@@ -1,8 +1,9 @@
 import { Link, useLocation } from "react-router";
 import SectionTitle from "./ui/SectionTitle";
 import SkillTab from "./ui/SkillTab";
+import SectionWrapper from "./ui/SectionWrapper";
 
-const skills = [
+const skills1 = [
     "Account Management",
     "SEO & Advertising",
     "Listing Optimization",
@@ -11,11 +12,13 @@ const skills = [
     "Case Management",
     "Inventory Management",
     "Product Development",
-    "Data Entry",
-    "Intensive Research",
+    "Competitor and Market Analysis",
+];
+const skills2 = [
     "ESL Tutor",
     "Transcribing",
-    "Competitor and Market Analysis",
+    "Data Entry",
+    "Intensive Research",
 ];
 
 function SkillsSection() {
@@ -46,7 +49,7 @@ function SkillsSection() {
                     }
                 />
             )}
-            <div className="shadow-sm h-full flex-grow rounded-xl p-4 md:p-6 dark:bg-neutral-900 dark:border-neutral-700 border">
+            <SectionWrapper>
                 {location.pathname === "/" && (
                     <div className="flex items-center justify-between mb-3.5">
                         <SectionTitle
@@ -71,7 +74,7 @@ function SkillsSection() {
                             }
                         />
                         <Link
-                            className="text-neutral-600 dark:text-neutral-300 hover:text-emerald-600 font-semibold"
+                            className="text-neutral-600 dark:text-neutral-300 hover:text-pink-700 duration-300 font-semibold"
                             to="/skills"
                         >
                             View All
@@ -79,6 +82,24 @@ function SkillsSection() {
                     </div>
                 )}
 
+                <p className="text-gray-600 text-sm dark:text-gray-200 mb-2">
+                    Amazon Skills
+                </p>
+                <div
+                    className={`${
+                        location.pathname === "/skills"
+                            ? "md:grid-cols-4"
+                            : "md:grid-cols-2"
+                    } gap-2 text-sm grid grid-cols-1 mb-3`}
+                >
+                    {skills1.map((skill) => (
+                        <SkillTab key={skill} skill={skill} />
+                    ))}
+                </div>
+
+                <p className="text-gray-600 text-sm dark:text-gray-200 mb-2">
+                    Other Skills
+                </p>
                 <div
                     className={`${
                         location.pathname === "/skills"
@@ -86,11 +107,11 @@ function SkillsSection() {
                             : "md:grid-cols-2"
                     } gap-2 text-sm grid grid-cols-1`}
                 >
-                    {skills.map((skill) => (
+                    {skills2.map((skill) => (
                         <SkillTab key={skill} skill={skill} />
                     ))}
                 </div>
-            </div>
+            </SectionWrapper>
         </>
     );
 }

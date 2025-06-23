@@ -1,9 +1,10 @@
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 import ToolTab from "./ui/ToolTab";
 
 export default function ToolsSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-4 md:p-6 flex-grow dark:bg-neutral-900 dark:border-neutral-700 border">
+        <SectionWrapper>
             <SectionTitle
                 title="Tools"
                 icon={
@@ -45,6 +46,6 @@ export default function ToolsSection() {
                 <ToolTab tool="ClickUp" logo="clickup.png" />
                 <ToolTab tool="Google Workspace" logo="google.png" />
             </div>
-        </div>
+        </SectionWrapper>
     );
 }

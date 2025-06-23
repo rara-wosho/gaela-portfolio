@@ -1,10 +1,11 @@
 import BeyondWorkingSection from "./BeyondWorkingSection";
 import SecondaryButton from "./ui/SecondaryButton";
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 
 function CertificatesSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-4 md:p-6 mb-3 dark:bg-neutral-900 dark:border-neutral-700 border">
+        <SectionWrapper>
             <SectionTitle
                 title="certificates"
                 icon={
@@ -25,7 +26,6 @@ function CertificatesSection() {
                     </svg>
                 }
             />
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-4   mt-3">
                 <div className="img-wrapper relative">
                     <a
@@ -58,7 +58,7 @@ function CertificatesSection() {
                     </p>
                 </div>
             </div>
-        </div>
+        </SectionWrapper>
     );
 }
 

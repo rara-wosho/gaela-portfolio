@@ -14,7 +14,7 @@ function Footer() {
                 <p className="text-gray-700 dark:text-gray-300 text-xs">
                     ©{"2025 "}
                     <a
-                        className="text-emerald-600 dark:text-emerald-600"
+                        className="text-pink-800 dark:text-pink-500"
                         href="https://raeldevera.vercel.app"
                         target="_blank"
                     >

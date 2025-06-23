@@ -1,8 +1,9 @@
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 
 function BeyondWorkingSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-4 md:p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+        <SectionWrapper>
             <SectionTitle title="Beyond Working" />
 
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-3">
@@ -12,7 +13,7 @@ function BeyondWorkingSection() {
                 YouTube tutorials or simply relaxing with my favorite sitcoms
                 like The Big Bang Theory and Friends.
             </p>
-        </div>
+        </SectionWrapper>
     );
 }
 

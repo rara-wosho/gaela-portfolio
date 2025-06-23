@@ -1,9 +1,10 @@
 import List from "./ui/List";
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 
 function Goals() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-4 md:p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+        <SectionWrapper>
             <SectionTitle
                 title="Goals"
                 icon={
@@ -33,21 +34,21 @@ function Goals() {
             <div className="flex flex-col gap-3 mt-3">
                 <ul className="flex flex-col gap-6 mt-5 ps-4 border-s dark:border-s-neutral-700">
                     <List>
-                        <span className="text-emerald-700 font-semibold dark:text-emerald-600">
+                        <span className="text-fuchsia-800 font-semibold dark:text-pink-500/70">
                             Graphic Design{" "}
                         </span>
                         : Learning to create visually compelling A+ Content that
                         boosts product appeal and conversion rates.
                     </List>
                     <List>
-                        <span className="text-emerald-700 font-semibold dark:text-emerald-600">
+                        <span className="text-fuchsia-800 font-semibold dark:text-pink-500/70">
                             Excel{" "}
                         </span>
                         : Continuously improving my skills to manage, analyze,
                         and visualize data more effectively.
                     </List>
                     <List>
-                        <span className="text-emerald-700 font-semibold dark:text-emerald-600">
+                        <span className="text-fuchsia-800 font-semibold dark:text-pink-500/70">
                             Other E-commerce Platforms{" "}
                         </span>
                         : Expanding my knowledge of platforms like Shopify,
@@ -56,7 +57,7 @@ function Goals() {
                     </List>
                 </ul>
             </div>
-        </div>
+        </SectionWrapper>
     );
 }
 

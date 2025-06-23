@@ -1,11 +1,9 @@
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 
 function GetInTouchSection() {
     return (
-        <div
-            id="get-in-touch"
-            className="shadow-sm h-full rounded-xl p-4 md:p-6 mb-3 dark:bg-neutral-900 dark:border-neutral-700 border"
-        >
+        <SectionWrapper id="get-in-touch">
             <SectionTitle
                 icon={
                     <svg
@@ -131,7 +129,7 @@ function GetInTouchSection() {
                         </div>
                     </a>
                 </div>
-                <p className="text-xs text-gray-700 dark:text-emerald-500 mt-2">
+                <p className="text-xs text-gray-700 dark:text-pink-500 mt-2">
                     Speaking Engagements
                 </p>
 
@@ -145,7 +143,7 @@ function GetInTouchSection() {
                     </p>
                 </div>
             </div>
-        </div>
+        </SectionWrapper>
     );
 }
 

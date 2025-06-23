@@ -53,7 +53,10 @@ function UpperHero() {
                     </p>
                 </div>
                 <h1 className="font-bold leading-12 text-white text-center md:text-end md:text-[64px] text-[32px] w-full uppercase tracking-wider z-10">
-                    <span className="text-emerald-500">Avy</span>gael De Vera
+                    <span className="text-fuchsia-500 dark:text-fuchsia-700">
+                        Avy
+                    </span>
+                    gael De Vera
                 </h1>
             </div>
         </div>

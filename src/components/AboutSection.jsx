@@ -1,10 +1,11 @@
 import PrimaryButton from "./ui/PrimaryButton";
 import SecondaryButton from "./ui/SecondaryButton";
 import SectionTitle from "./ui/SectionTitle";
+import SectionWrapper from "./ui/SectionWrapper";
 
 function AboutSection() {
     return (
-        <div className="shadow-sm h-full rounded-xl p-4 md:p-6  dark:bg-neutral-900 dark:border-neutral-700 border">
+        <SectionWrapper>
             <SectionTitle
                 title="PROFILE"
                 icon={
@@ -29,7 +30,7 @@ function AboutSection() {
 
             <p className="text-gray-800 mt-2 dark:text-gray-300">
                 An experienced{" "}
-                <span className="text-emerald-900 dark:text-emerald-500 font-medium">
+                <span className="text-pink-800 dark:text-pink-800 font-medium">
                     E-Commerce Account Specialist
                 </span>{" "}
                 with 3 years of proven experience and expertise in Amazon store
@@ -94,7 +95,7 @@ function AboutSection() {
                     />
                 </a>
             </div>
-        </div>
+        </SectionWrapper>
     );
 }
 
