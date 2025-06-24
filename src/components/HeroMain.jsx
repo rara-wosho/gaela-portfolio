@@ -16,7 +16,7 @@ function HeroMain() {
   }, [darkMode]);
 
   return (
-    <div className="bg-transparent flex-shrink-0 mb-3 pt-4 pb-2 flex flex-col justify-center gap-2 md:gap-4">
+    <div className="bg-transparent flex-shrink-0 mb-1 pt-4 pb-2 flex flex-col justify-center gap-2 md:gap-4">
       <div className="flex items-center gap-2 md:gap-4">
         <Avatar />
         <div className="flex flex-col flex-grow">
@@ -31,30 +31,26 @@ function HeroMain() {
               {darkMode ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-moon-icon lucide-moon"
+                  className="lucide md:w-6 w-4 lucide-moon-icon lucide-moon"
                 >
                   <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
                 </svg>
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-sun-icon lucide-sun"
+                  className="lucide md:w-6 w-4 lucide-sun-icon lucide-sun"
                 >
                   <circle cx="12" cy="12" r="4" />
                   <path d="M12 2v2" />
@@ -90,7 +86,7 @@ function HeroMain() {
               <path d="M22 10v6" />
               <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
             </svg>
-            <p className="text-[12px] md:text-sm ">
+            <p className="text-[10px] md:text-sm">
               Bachelor of Arts in English Language
             </p>
           </div>
@@ -113,7 +109,7 @@ function HeroMain() {
               <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
               <rect x="2" y="4" width="20" height="16" rx="2" />
             </svg>
-            <p className="text-[12px] md:text-sm ">devera.avygael@gmail.com</p>
+            <p className="text-[10px] md:text-sm">devera.avygael@gmail.com</p>
           </div>
           <div
             className="flex items-center gap-2 mb-1
@@ -134,7 +130,7 @@ function HeroMain() {
               <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            <p className="text-[12px] md:text-sm ">Cagayan De Oro City</p>
+            <p className="text-[10px] md:text-sm">Cagayan De Oro City</p>
           </div>
         </div>
       </div>
@@ -143,7 +139,7 @@ function HeroMain() {
       <div className="flex items-center gap-2 mt-2 md:mt-0">
         <a href="mailto:devera.avygael@gmail.com">
           <PrimaryButton
-            containerStyle="px-3"
+            containerStyle="px-3 text-[12px] md:text-sm"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -166,6 +162,7 @@ function HeroMain() {
         </a>
         <a href="#get-in-touch">
           <SecondaryButton
+            containerStyle="text-[12px] md:text-sm"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
