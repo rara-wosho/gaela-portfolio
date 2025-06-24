@@ -22,7 +22,7 @@ function HeroMain() {
         <div className="flex flex-col flex-grow">
           <div className="flex items-center justify-between text-gray-800 dark:text-gray-100 mb-2">
             <p className="text-[18px] md:text-4xl font-bold tracking-wide">
-              Avygael Dela Cerna
+              Avygael De Vera
             </p>
             <div
               onClick={() => setDarkMode(!darkMode)}
