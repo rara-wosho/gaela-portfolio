@@ -20,7 +20,7 @@ function HeroMain() {
       <div className="flex items-center gap-2 md:gap-4">
         <Avatar />
         <div className="flex flex-col flex-grow">
-          <div className="flex items-center justify-between text-gray-800 dark:text-gray-100 mb-2">
+          <div className="flex items-center justify-between text-gray-800 dark:text-gray-100 mb-0 md:mb-2">
             <p className="text-[18px] md:text-4xl font-bold tracking-wide">
               Avygael De Vera
             </p>
@@ -68,6 +68,14 @@ function HeroMain() {
 
           <div
             className="flex items-center gap-2 mb-1
+         text-gray-700 dark:text-gray-200"
+          >
+            <p className="text-[12px] md:text-lg font-normal md:font-semibold">
+              E-Commerce Account Specialist
+            </p>
+          </div>
+          <div
+            className="flex items-center gap-2 mb-1
          text-gray-800 dark:text-gray-200"
           >
             <svg
@@ -90,7 +98,7 @@ function HeroMain() {
               Bachelor of Arts in English Language
             </p>
           </div>
-          <div
+          {/* <div
             className="flex items-center gap-2 mb-1
          text-gray-800 dark:text-gray-200"
           >
@@ -110,7 +118,7 @@ function HeroMain() {
               <rect x="2" y="4" width="20" height="16" rx="2" />
             </svg>
             <p className="text-[10px] md:text-sm">devera.avygael@gmail.com</p>
-          </div>
+          </div> */}
           <div
             className="flex items-center gap-2 mb-1
          text-gray-800 dark:text-gray-200"

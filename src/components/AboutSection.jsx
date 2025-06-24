@@ -28,7 +28,7 @@ function AboutSection() {
         }
       />
 
-      <p className="text-gray-800 mt-2 dark:text-gray-300">
+      <p className="text-gray-800 mt-2 text-sm dark:text-gray-300">
         An experienced{" "}
         <span className="text-pink-800 dark:text-pink-800 font-medium">
           E-Commerce Account Specialist
@@ -38,7 +38,7 @@ function AboutSection() {
         customer service, and admin support.
       </p>
 
-      <p className="text-gray-700 dark:text-gray-200 text-sm uppercase mt-4 mb-1">
+      <p className="text-gray-700 text-xs dark:text-gray-200 tracking-wider uppercase mt-4 mb-1">
         Specializing in
       </p>
       <div className="flex items-center gap-2 flex-wrap">
