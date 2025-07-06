@@ -33,7 +33,7 @@ function AboutSection() {
         <span className="text-pink-800 dark:text-pink-800 font-medium">
           E-Commerce Account Specialist
         </span>{" "}
-        with 3 years of proven experience and expertise in Amazon store
+        with 2 years of proven experience and expertise in Amazon store
         management, including product/content optimization, order processing,
         customer service, and admin support.
       </p>
